@@ -52,3 +52,6 @@ temp/
 
 # Package files
 *.tgz
+
+# Netlify
+.netlify/
