@@ -18,8 +18,7 @@ export class ShiftValidator {
   // 連続勤務日数チェック
   checkConsecutiveWorkDays(
     staffId: string,
-    shifts: Shift[],
-    targetDate: Date
+    shifts: Shift[]
   ): ValidationResult {
     const errors: ValidationError[] = []
     const warnings: ValidationWarning[] = []
@@ -281,17 +280,13 @@ export class ShiftValidator {
   // 総合バリデーション
   validateShift(
     shift: Shift,
-    allShifts: Shift[],
-    staff: Staff[],
-    specialRequirements?: {
-      requiredQualifications?: string[]
-    }
+    allShifts: Shift[]
   ): ValidationResult {
     const allErrors: ValidationError[] = []
     const allWarnings: ValidationWarning[] = []
     
     // 各種チェックを実行
-    const consecutiveCheck = this.checkConsecutiveWorkDays(shift.staffId, allShifts, shift.date)
+    const consecutiveCheck = this.checkConsecutiveWorkDays(shift.staffId, allShifts)
     allErrors.push(...consecutiveCheck.errors)
     allWarnings.push(...consecutiveCheck.warnings)
     

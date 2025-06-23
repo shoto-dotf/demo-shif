@@ -3,8 +3,7 @@ interface ShiftStatsProps {
   shifts: any[]
 }
 
-export default function ShiftStats({ month, shifts }: ShiftStatsProps) {
-  const totalStaff = 14
+export default function ShiftStats({ shifts }: ShiftStatsProps) {
   const workDays = shifts.filter(s => s.staffAssignments.length > 0).length
   const averageStaffPerDay = shifts.reduce((sum, day) => sum + day.staffAssignments.length, 0) / workDays || 0
   

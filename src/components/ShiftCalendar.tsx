@@ -1,5 +1,4 @@
-import { format, startOfMonth, endOfMonth, eachDayOfInterval, getDay, isSameMonth } from 'date-fns'
-import { ja } from 'date-fns/locale'
+import { format, startOfMonth, endOfMonth, eachDayOfInterval, getDay } from 'date-fns'
 import clsx from 'clsx'
 
 interface ShiftAssignment {
