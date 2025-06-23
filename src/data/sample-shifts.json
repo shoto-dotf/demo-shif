@@ -1,0 +1,138 @@
+{
+  "monthlyShifts": {
+    "2025-06": {
+      "shifts": [
+        {
+          "date": "2025-06-01",
+          "dayOfWeek": "日",
+          "isHoliday": true,
+          "staffAssignments": []
+        },
+        {
+          "date": "2025-06-02",
+          "dayOfWeek": "月",
+          "isHoliday": false,
+          "staffAssignments": [
+            { "staffName": "池澤 太郎", "shiftType": "早番", "startTime": "08:30", "endTime": "17:30" },
+            { "staffName": "山田 一郎", "shiftType": "遅番", "startTime": "10:00", "endTime": "19:00" },
+            { "staffName": "鈴木 美咲", "shiftType": "早番", "startTime": "08:30", "endTime": "17:30" },
+            { "staffName": "田中 優子", "shiftType": "通常", "startTime": "09:00", "endTime": "18:00" },
+            { "staffName": "高橋 さくら", "shiftType": "遅番", "startTime": "10:00", "endTime": "19:00" },
+            { "staffName": "中村 恵美", "shiftType": "早番", "startTime": "08:30", "endTime": "17:30" },
+            { "staffName": "小林 由美", "shiftType": "遅番", "startTime": "10:00", "endTime": "19:00" },
+            { "staffName": "松本 健太", "shiftType": "通常", "startTime": "09:00", "endTime": "18:00" }
+          ]
+        },
+        {
+          "date": "2025-06-03",
+          "dayOfWeek": "火",
+          "isHoliday": false,
+          "specialDuty": "内視鏡検査",
+          "staffAssignments": [
+            { "staffName": "池澤 太郎", "shiftType": "早番", "startTime": "08:30", "endTime": "17:30", "note": "内視鏡担当" },
+            { "staffName": "佐藤 花子", "shiftType": "通常", "startTime": "09:00", "endTime": "18:00" },
+            { "staffName": "鈴木 美咲", "shiftType": "早番", "startTime": "08:30", "endTime": "17:30", "note": "内視鏡担当" },
+            { "staffName": "田中 優子", "shiftType": "早番", "startTime": "08:30", "endTime": "17:30", "note": "内視鏡担当" },
+            { "staffName": "渡辺 あい", "shiftType": "遅番", "startTime": "10:00", "endTime": "19:00" },
+            { "staffName": "中村 恵美", "shiftType": "通常", "startTime": "09:00", "endTime": "18:00" },
+            { "staffName": "加藤 理恵", "shiftType": "通常", "startTime": "09:00", "endTime": "18:00" },
+            { "staffName": "松本 健太", "shiftType": "通常", "startTime": "09:00", "endTime": "18:00" },
+            { "staffName": "吉田 みなみ", "shiftType": "遅番", "startTime": "10:00", "endTime": "19:00" }
+          ]
+        },
+        {
+          "date": "2025-06-04",
+          "dayOfWeek": "水",
+          "isHoliday": false,
+          "staffAssignments": [
+            { "staffName": "山田 一郎", "shiftType": "早番", "startTime": "08:30", "endTime": "17:30" },
+            { "staffName": "池澤 太郎", "shiftType": "遅番", "startTime": "10:00", "endTime": "19:00" },
+            { "staffName": "田中 優子", "shiftType": "早番", "startTime": "08:30", "endTime": "17:30" },
+            { "staffName": "高橋 さくら", "shiftType": "通常", "startTime": "09:00", "endTime": "18:00" },
+            { "staffName": "伊藤 真理", "shiftType": "通常", "startTime": "09:00", "endTime": "18:00" },
+            { "staffName": "小林 由美", "shiftType": "早番", "startTime": "08:30", "endTime": "17:30" },
+            { "staffName": "中村 恵美", "shiftType": "遅番", "startTime": "10:00", "endTime": "19:00" },
+            { "staffName": "松本 健太", "shiftType": "通常", "startTime": "09:00", "endTime": "18:00" }
+          ]
+        },
+        {
+          "date": "2025-06-05",
+          "dayOfWeek": "木",
+          "isHoliday": false,
+          "specialDuty": "内視鏡検査",
+          "staffAssignments": [
+            { "staffName": "池澤 太郎", "shiftType": "早番", "startTime": "08:30", "endTime": "17:30", "note": "内視鏡担当" },
+            { "staffName": "山田 一郎", "shiftType": "通常", "startTime": "09:00", "endTime": "18:00" },
+            { "staffName": "鈴木 美咲", "shiftType": "早番", "startTime": "08:30", "endTime": "17:30", "note": "内視鏡担当" },
+            { "staffName": "高橋 さくら", "shiftType": "早番", "startTime": "08:30", "endTime": "17:30" },
+            { "staffName": "渡辺 あい", "shiftType": "遅番", "startTime": "10:00", "endTime": "19:00" },
+            { "staffName": "中村 恵美", "shiftType": "早番", "startTime": "08:30", "endTime": "17:30" },
+            { "staffName": "小林 由美", "shiftType": "通常", "startTime": "09:00", "endTime": "18:00" },
+            { "staffName": "松本 健太", "shiftType": "通常", "startTime": "09:00", "endTime": "18:00" },
+            { "staffName": "木村 ゆり", "shiftType": "遅番", "startTime": "10:00", "endTime": "19:00" }
+          ]
+        },
+        {
+          "date": "2025-06-06",
+          "dayOfWeek": "金",
+          "isHoliday": false,
+          "staffAssignments": [
+            { "staffName": "山田 一郎", "shiftType": "早番", "startTime": "08:30", "endTime": "17:30" },
+            { "staffName": "佐藤 花子", "shiftType": "遅番", "startTime": "10:00", "endTime": "19:00" },
+            { "staffName": "田中 優子", "shiftType": "通常", "startTime": "09:00", "endTime": "18:00" },
+            { "staffName": "鈴木 美咲", "shiftType": "遅番", "startTime": "10:00", "endTime": "19:00" },
+            { "staffName": "伊藤 真理", "shiftType": "早番", "startTime": "08:30", "endTime": "17:30" },
+            { "staffName": "小林 由美", "shiftType": "早番", "startTime": "08:30", "endTime": "17:30" },
+            { "staffName": "加藤 理恵", "shiftType": "通常", "startTime": "09:00", "endTime": "18:00" },
+            { "staffName": "松本 健太", "shiftType": "通常", "startTime": "09:00", "endTime": "18:00" },
+            { "staffName": "吉田 みなみ", "shiftType": "通常", "startTime": "09:00", "endTime": "18:00" }
+          ]
+        },
+        {
+          "date": "2025-06-07",
+          "dayOfWeek": "土",
+          "isHoliday": false,
+          "specialDuty": "健康診断",
+          "staffAssignments": [
+            { "staffName": "池澤 太郎", "shiftType": "土曜午前", "startTime": "09:00", "endTime": "13:00", "note": "健診担当" },
+            { "staffName": "鈴木 美咲", "shiftType": "土曜午前", "startTime": "09:00", "endTime": "13:00" },
+            { "staffName": "高橋 さくら", "shiftType": "土曜午前", "startTime": "09:00", "endTime": "13:00" },
+            { "staffName": "中村 恵美", "shiftType": "土曜午前", "startTime": "09:00", "endTime": "13:00" },
+            { "staffName": "吉田 みなみ", "shiftType": "土曜午前", "startTime": "09:00", "endTime": "13:00" }
+          ]
+        }
+      ],
+      "statistics": {
+        "totalWorkDays": 26,
+        "holidays": 5,
+        "specialDutyDays": {
+          "内視鏡検査": 8,
+          "健康診断": 2
+        },
+        "averageStaffPerDay": 8.5,
+        "coverageRate": "95%"
+      }
+    }
+  },
+  "weeklyRotationPattern": {
+    "description": "基本的な週間ローテーションパターン",
+    "patterns": [
+      {
+        "staffName": "池澤 太郎",
+        "weekPattern": ["早番", "早番", "休み", "早番", "早番", "土曜午前", "休み"]
+      },
+      {
+        "staffName": "山田 一郎",
+        "weekPattern": ["遅番", "休み", "早番", "通常", "早番", "休み", "休み"]
+      },
+      {
+        "staffName": "鈴木 美咲",
+        "weekPattern": ["早番", "早番", "休み", "早番", "遅番", "土曜午前", "休み"]
+      },
+      {
+        "staffName": "田中 優子",
+        "weekPattern": ["通常", "早番", "早番", "休み", "通常", "休み", "休み"]
+      }
+    ]
+  }
+}
